@@ -1,0 +1,132 @@
+/* Author: arJun
+Date: 15/02/2023*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: small;
+}
+.main {
+    background-color: #ddd;
+    margin: 20px 10px;
+    border-top: 4px solid #f00;
+}
+.pro-pic {
+    width: 250px;
+}
+.social-logo {
+    width: 100px;
+}
+.html {
+    width: 70%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.css {
+    width: 75%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.php {
+    width: 60%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.js {
+    width: 50%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ps {
+    width: 90%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.illu {
+    width: 80%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.sketch {
+    width: 60%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.premire {
+    width: 90%;
+    border-bottom: 1px solid #f00;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.percentage {
+    width: 30px;
+    position: absolute;
+    right: -30px;
+    background-color: rgb(39, 33, 33);
+    color: #fff;
+    font-size: small;
+    text-align: center;
+    font-size: smaller;
+}
+.mkt-profile-img {
+    width: 20px;
+    margin-right: 10px;
+}
+.work-img {
+    width: 100%;
+    height: 100%;
+}
+.work:hover {
+    transform: scale(1.5);
+}
+.rating-img {
+    width: 50px;
+    height: 50px;
+}
+.t-box {
+    background-color: rgb(250, 250, 250);
+    border: none;
+    height: 30px;
+}
+.t-box-1 {
+    background-color: rgb(250, 250, 250);
+    border: none;
+    height: 100px;
+}
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 10px;
+    }
+    .main-pic {
+        width: 250px;
+        margin: 30px auto;
+    }
+    .mb-10 {
+        margin-bottom: 20px;
+    }
+    .t-s {
+        text-align: left;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+    .work {
+        margin-bottom: 20px;
+    }
+}
